@@ -52,9 +52,6 @@ java -jar target/eowm-java-0.2.0.jar --help
 - `eowm.integration.*` — synthetic ingest (replace with adapters to real EO repositories)
 - `eowm.cli.*` — minimal CLI
 
-## License
-MIT (see LICENSE).
-
 ## Stability policy: CI tests vs paper-style experiments
 
 This repository separates:
@@ -87,3 +84,9 @@ java -jar target/eowm-java-0.2.0.jar experiment --trials 10 --wbits 64 --theta 2
 ```
 
 Tip: if you want more reliable similarity, use **smaller wbits** (e.g., 32/64) and/or increase cell coverage (increase N values).
+
+## Citation
+
+If you use or extend this code, please cite the paper:
+
+**Pérez Gort, M. L., & Cortesi, A. (2026).** *Earth observation data provenance protection through self‑recalibrated watermarking*. **GeoInformatica**, 30(1), 6. https://doi.org/10.1007/s10707-026-00566-2
